@@ -1,0 +1,74 @@
+env:
+  TERM: alacritty
+
+window:
+  dynamic_title: true
+
+  padding:
+    x: 2
+    y: 2
+
+  dynamic_padding: false
+
+  title: Alacritty
+
+  class:
+    instance: Alacritty
+    general: Alacritty
+    gtk_theme_variant: None
+
+scrolling:
+  history: 10000
+  multiplier: 1
+
+draw_bold_text_with_bright_colors: false
+
+font:
+  size: 14.0
+
+colors:
+  primary:
+    background: '#000000'
+    foreground: '#d8dee9'
+
+  cursor:
+    text: '#191919'
+    cursor: '#d8dee9'
+
+  vi_mode_cursor:
+    text: CellBackground
+    cursor: CellForeground
+
+  selection:
+    text: '#191919'
+    background: '#d8dee9'
+
+background_opacity: 0.8
+
+cursor:
+  style: Beam
+
+  unfocused_hollow: true
+  vi_mode_style: Block
+
+live_config_reload: true
+
+working_directory: None
+
+mouse:
+  double_click: { threshold: 300 }
+  triple_click: { threshold: 300 }
+
+url:
+  launcher:
+    program: firefox
+    args: []
+
+debug:
+  render_timer: false
+
+  persistent_logging: false
+
+  log_level: Warn
+
+  print_events: false
